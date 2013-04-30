@@ -20,4 +20,6 @@ module BarberShop
 
   require 'barbershop/authorize'
 
+  require 'barbershop/models/client'
+
 end
