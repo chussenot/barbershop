@@ -1,0 +1,4 @@
+require 'barbershop'
+require 'barbershop/runner'
+
+BarberShop::Runner.start

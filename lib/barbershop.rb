@@ -18,5 +18,6 @@ end
 
 module BarberShop
 
+  require 'barbershop/authorize'
 
 end
