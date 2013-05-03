@@ -1,7 +1,7 @@
 module BarberShop
   class Person
     include Virtus
-
+    include Record
     # store ids from different providers
     attribute :trello_id,   String
     attribute :timetask_id, String
