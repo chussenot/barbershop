@@ -5,7 +5,7 @@ describe BarberShop::Authorize do
 
   it 'should authorize connection to trello' do
     authorize_on_trello
-    Trello::Member.find('me').username.should == 'chussenot'
+    Trello::Member.find('me').username.should == 'monsieurporte1'
   end
 
   it 'should authorize connection to github' do
